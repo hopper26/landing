@@ -1,0 +1,112 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  color: white;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.btn-quiz {
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 50px;
+  padding: 20px 20px;
+  background-color: white;
+  border: 2px solid white;
+}
+#hint {
+  opacity: 0.4;
+  text-align: center;
+}
+h2, h3 {
+  text-align: center;
+}
+h3 {
+  text-decoration: underline;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid grayk;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px gray;
+  margin: 10px;
+  flex: 1;
+}
+.card img {
+  width: 110px;
+  border-radius: 20px;
+}
+
+ul, ol {
+  text-align: left;
+  opacity: 0.8;
+}
+
+.footer {
+  text-align: center;
+  background-color: black;
+  padding: 50px;
+}
+
+i {
+  color: yellow;
+  font-size: 40px;
+  font-weight: light;
+}
+
+.links p {
+  color: yellow;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  #warning-msg {
+    display: block;
+    color: red;
+    text-align: center;
+    font-size: x-large;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  #warning-msg {
+    display: none;
+  }
+}
