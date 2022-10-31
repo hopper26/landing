@@ -40,7 +40,12 @@ a {
   padding: 20px 20px;
   background-color: white;
   border: 2px solid white;
+  transition: background 0.3s ease;
 }
+.btn-quiz:hover {
+   background-color: rgb(144,144,255);
+}
+
 #hint {
   opacity: 0.4;
   text-align: center;
